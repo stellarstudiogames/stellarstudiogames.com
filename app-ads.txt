@@ -2,7 +2,6 @@ facebook.com, 134440064776048, RESELLER, c3e20eee3f780d68
 facebook.com, 134440064776048, DIRECT, c3e20eee3f780d68
 applovin.com, 17ac036e256aa4064c64b47291500128, DIRECT
 
-#Updated 20th December, 2022
 #Appodeal
 appodeal.com, 209980, DIRECT
 
@@ -34,10 +33,10 @@ adcolony.com, fcaa373cac67c9f927aa914013b8346e, RESELLER, 1ad675c9de6b5176
 
 #Applovin
 #You use your own account in Applovin. Reach out to your Applovin AM
-applovin.com,c8802c2788bab3703acc24cf065d5390,RESELLER
-applovin.com,5c72b49c2b2ce6949bf0f98eafe9e417,RESELLER
-applovin.com,0b8086e03d0f715f09a9e6e5dbdbb4b8,RESELLER
-applovin.com,94bf1c89704c8e6a46341999e25b1b90,RESELLER
+#applovin.com,c8802c2788bab3703acc24cf065d5390,RESELLER
+#applovin.com,5c72b49c2b2ce6949bf0f98eafe9e417,RESELLER
+#applovin.com,0b8086e03d0f715f09a9e6e5dbdbb4b8,RESELLER
+#applovin.com,94bf1c89704c8e6a46341999e25b1b90,RESELLER
 
 #InMobi
 inmobi.com, fafa1521dbdb43f69b1eb199a0b007fd, RESELLER, 83e75a7ae333ca9d
