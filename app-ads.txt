@@ -1,5 +1,5 @@
 facebook.com, 134440064776048, RESELLER, c3e20eee3f780d68
-#facebook.com, 134440064776048, DIRECT, c3e20eee3f780d68
+facebook.com, 134440064776048, DIRECT, c3e20eee3f780d68
 applovin.com, 17ac036e256aa4064c64b47291500128, DIRECT
 
 #Appodeal
