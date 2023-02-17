@@ -2,6 +2,44 @@ facebook.com, 134440064776048, DIRECT, c3e20eee3f780d68
 facebook.com, 134440064776048, RESELLER, c3e20eee3f780d68
 applovin.com, 17ac036e256aa4064c64b47291500128, DIRECT
 
+adelement.com, 30167, RESELLER
+admixplay.com, 2012, RESELLER
+adview.com, 48045325, RESELLER, 1b2cc038a11ea319
+advlion.com, 3054, RESELLER
+advlion.com, 3083, RESELLER
+advlion.com, 3108, RESELLER
+advlion.com, 5140, RESELLER
+algorix.co, 54616, RESELLER, 5b394c12fea27a1d
+appnexus.com, 10617, RESELLER, f5ab79cb980f11d1
+appnexus.com, 13293, RESELLER, f5ab79cb980f11d1
+appnexus.com, 13297, RESELLER, f5ab79cb980f11d1
+appnexus.com, 2764, RESELLER, f5ab79cb980f11d1
+appnexus.com, 7353, RESELLER, f5ab79cb980f11d1
+appnexus.com, 9393, RESELLER, f5ab79cb980f11d1
+bidease.com, exchange-20, RESELLER
+Contextweb.com, 562842, RESELLER, 89ff185a4c4e857c
+criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
+indexexchange.com, 186081, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 199195, RESELLER, 50b1c356f2c5c8fc
+opera.com, pub6794361378752, RESELLER, 55a0c5fd61378de3
+pubmatic.com, 161344, RESELLER, 5d62403b186f2ace
+Pubmatic.com, 161344, RESELLER, 5d62403b186f2ace
+pubmatic.com, 161853, RESELLER, 5d62403b186f2ace
+pubmatic.com, 162223, RESELLER, 5d62403b186f2ace
+Pubmatic.com, 162882, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 20086, RESELLER, 0bfd66d529a55807
+thebrave.io, 1234594, RESELLER, c25b2154543746ac
+themediagrid.com, SWH94X, RESELLER, 35d5010d7789b49d
+unity.com, 1790396, DIRECT, 96cabb5fbdde37a7
+video.unrulymedia.com, 170071695, RESELLER
+video.unrulymedia.com, 3383599585, RESELLER, a670c89d4a324e47
+videoheroes.tv, 212499, RESELLER, 064bc410192443d8
+xandr.com, 13167, RESELLER, f5ab79cb980f11d1
+xandr.com, 13297, RESELLER, f5ab79cb980f11d1
+xandr.com, 7353, RESELLER, f5ab79cb980f11d1
+Xapads.com, 117219, RESELLER
+yeahmobi.com, 5135195, RESELLER
+
 ## MCM specific
 yodo1.com, 63d506d76337ef2fad768d14, DIRECT
 ## Yodo1 app-ads.txt - Updated at: 2023-02-07
