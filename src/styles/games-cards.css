@@ -2,11 +2,10 @@
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 100px;
     padding-bottom: 50px;
     align-items: center;
-    align-self: stretch;
 }
 
 .game-card {
@@ -17,11 +16,26 @@
     border-radius: 25px;
     border: 1px solid color(a98-rgb 0 0 0 / 0.1);
     box-shadow: 0 5px 15px rgba(0 0 0 / 0.6);
-    margin: 15px;
-    padding: 10px;
+    margin: 15px 15px;
+    padding: 10px 7px 10px 7px;
     width: 250px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: color(a98-rgb 0 0 0 / 0.7);
+}
+
+.game-card .name-app-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-wrap: wrap;
+    font-size: 22px;
+    width: 100%;
+    height: 25px;
 }
 
 .game-card img {
@@ -32,7 +46,6 @@
 }
 
 .game-card .btn-google-play {
-    display: inline-block;
     background-image: url("/public/img/google-play-badge.png");
     background-position: center;
     background-size: contain;
