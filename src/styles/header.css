@@ -1,0 +1,43 @@
+.header {
+    /* color(a98-rgb 0.03 0.06 0.09) */
+    background: linear-gradient(
+        to right,
+        color(a98-rgb 0.03 0.06 0.09) 0%,
+        color(a98-rgb 0.04 0.08 0.13) 50%
+    );
+    color: white;
+    font-size: 10px;
+    height: 70px;
+    width: 100%;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 1px 2px color(a98-rgb 1 1 1 / 0.1);
+}
+
+.logo {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo a img {
+    height: 150px;
+    padding-bottom: 3px;
+}
+
+.logo a img:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+}

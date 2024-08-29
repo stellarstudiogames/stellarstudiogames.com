@@ -1,0 +1,49 @@
+.games-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.game-card {
+    background: linear-gradient(
+        color(a98-rgb 0.7 0.89 1),
+        color(a98-rgb 1 1 1)
+    );
+    border-radius: 25px;
+    border: 1px solid color(a98-rgb 0 0 0 / 0.1);
+    box-shadow: 0 5px 15px rgba(0 0 0 / 0.6);
+    margin: 15px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    color: color(a98-rgb 0 0 0 / 0.7);
+}
+
+.game-card img {
+    width: 90%;
+    border-radius: 25px;
+    border: 2px solid color(a98-rgb 1 1 1 / 1);
+    box-shadow: 0 5px 3px rgba(0 0 0 / 0.25);
+}
+
+.game-card .btn-google-play {
+    display: inline-block;
+    background-image: url("/public/img/google-play-badge.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid color(a98-rgb 1 1 1 / 0.2);
+}
+
+.game-card .btn-google-play:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease;
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src/typescript",
+    "outDir": "./src/scripts",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/typescript/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/scripts"
+  ]
+}

@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(
+        color(a98-rgb 0.43 0.76 1) 0%,
+        color(a98-rgb 1 1 1) 50%,
+        color(a98-rgb 1 1 1) 87%
+    );
+}
