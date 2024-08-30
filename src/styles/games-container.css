@@ -17,11 +17,13 @@
     border: 1px solid color(a98-rgb 0 0 0 / 0.1);
     box-shadow: 0 5px 15px rgba(0 0 0 / 0.6);
     margin: 15px 15px;
-    padding: 10px 7px 10px 7px;
+    padding: 13px 7px 15px 7px;
     width: 250px;
+    height: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: color(a98-rgb 0 0 0 / 0.7);
 }
 
