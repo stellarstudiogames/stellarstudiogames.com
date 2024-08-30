@@ -4,6 +4,8 @@ footer {
     padding-top: 25px;
     padding-bottom: 25px;
     border-top: 1px solid color(a98-rgb 1 1 1 / 0.05);
+    /* bottom: 0px; */
+    /* position: absolute; */
 }
 
 footer .row {
@@ -23,7 +25,11 @@ footer .row {
 }
 
 footer .row1 {
-    font-size: 6px;
+    font-size: 5px;
+    font-family: "Arial";
+    /* letter-spacing: 1px; */
+    text-decoration: solid;
+    text-transform: uppercase;
     color: color(a98-rgb 1 1 1 / 0.5);
 }
 
@@ -35,19 +41,23 @@ footer .row2 {
     text-align: center;
     justify-content: center;
 }
+
 footer .row2 > a {
     margin: 5px;
-    font-size: 14px;
-    color: color(a98-rgb 1 1 1 / 0.4);
+    font-family: "Bow";
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-inline: 5px;
     text-decoration: solid;
     text-transform: uppercase;
-    font-weight: bold;
+    color: color(a98-rgb 1 1 1 / 0.4);
 }
 
 footer .row2 > a:hover {
     color: color(a98-rgb 1 1 1 / 0.8);
     transform: scale(1.04);
     transition: transform 0.1s ease;
+    transform-origin: 50% 50%;
 }
 
 /* footer .row3 {

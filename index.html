@@ -4,69 +4,24 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Stellar Studio Games</title>
-      <link rel="stylesheet" href="src/styles/body.css" />
+      <link rel="stylesheet" href="src/styles/index.css" />
       <link rel="stylesheet" href="src/styles/header.css" />
       <link rel="stylesheet" href="src/styles/footer.css" />
-      <link rel="stylesheet" href="src/styles/games-cards.css" />
+      <link rel="stylesheet" href="src/styles/games-container.css" />
       <link rel="icon" href="public/favicon.png" type="image/x-icon" />
-      <script src="src/scripts/loadComponent.js"></script>
-      <script>
-         load;
-      </script>
    </head>
-   <body id="body1">
-      <header class="header">
+   <!-- <canvas id="cloud-canvas"></canvas> -->
+   <!-- <script src="src/scripts/clouds.js"></script> -->
+   <body>
+      <header>
          <div class="logo">
             <a href="/">
                <img src="/public/img/logo-header.png" />
             </a>
          </div>
       </header>
-      <div class="games-container">
-         <div class="game-card">
-            <img
-               src="https://play-lh.googleusercontent.com/bifZx6kAyYXMrAnnUsoSm7OzQwNB6UG7nn1hgSiktbyiA_ey6i-hxRn3fysa6CPJ8g=w240-h480-rw"
-            />
-            <h2 class="name-app-title">Angry Crusher Catapult</h2>
-            <a
-               class="btn-google-play"
-               href="https://play.google.com/store/apps/details?id=com.StellarStudioGames.ABCandyBirds"
-               target="_blank"
-            ></a>
-         </div>
-         <div class="game-card">
-            <img
-               src="https://play-lh.googleusercontent.com/vysJ1BugPAKYW7JXl8oW9nm8tFIy9bMZ9GAZuIe17xoIoehnKCwo8dT4fR4u4M6Di6Q=w240-h480-rw"
-            />
-            <h2 class="name-app-title">Hit Bottles Knock Down</h2>
-            <a
-               class="btn-google-play"
-               href="https://play.google.com/store/apps/details?id=com.StellarStudioGame.HitBottlesKnockDown"
-               target="_blank"
-            ></a>
-         </div>
-         <div class="game-card">
-            <img
-               src="https://play-lh.googleusercontent.com/OUm30juvg7zKH12rlstc3vNXlgu1vWCEGYHglJ0RqmDXUvct8inobT78cptZIES_e7M=w240-h480-rw"
-            />
-            <h2 class="name-app-title">Angry Monsters Catapult</h2>
-            <a
-               class="btn-google-play"
-               href="https://play.google.com/store/apps/details?id=com.StellarStudioGames.AngryCrusherMonsters"
-               target="_blank"
-            ></a>
-         </div>
-         <div class="game-card">
-            <img
-               src="https://play-lh.googleusercontent.com/RnwqFjG5CDmHOvHtUszqOOb5T4ozyi0m6vDKFGS-aJY73X2XL_Ay8Ga8vbE5zSSdzVXt=w240-h480-rw"
-            />
-            <h2 class="name-app-title">Crusher Birds Catapult</h2>
-            <a
-               class="btn-google-play"
-               href="https://play.google.com/store/apps/details?id=com.StellarStudioGames.AngryCrusherClassic"
-               target="_blank"
-            ></a>
-         </div>
+      <div class="games-container" id="games-container">
+         <script src="src/scripts/gameContainer.js"></script>
       </div>
       <footer>
          <div class="row">

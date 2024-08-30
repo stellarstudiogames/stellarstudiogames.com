@@ -25,6 +25,13 @@
     color: color(a98-rgb 0 0 0 / 0.7);
 }
 
+.game-card img {
+    width: 90%;
+    border-radius: 25px;
+    border: 2px solid color(a98-rgb 1 1 1 / 1);
+    box-shadow: 0 5px 10px rgba(0 0 0 / 0.5);
+}
+
 .game-card .name-app-title {
     display: flex;
     text-align: center;
@@ -32,17 +39,11 @@
     justify-content: center;
     font-weight: bold;
     text-transform: capitalize;
-    text-wrap: wrap;
-    font-size: 22px;
+    text-wrap: nowrap;
+    font-size: 25px;
+    font-family: "Acme";
     width: 100%;
-    height: 25px;
-}
-
-.game-card img {
-    width: 90%;
-    border-radius: 25px;
-    border: 2px solid color(a98-rgb 1 1 1 / 1);
-    box-shadow: 0 5px 3px rgba(0 0 0 / 0.25);
+    height: 20px;
 }
 
 .game-card .btn-google-play {
@@ -52,8 +53,7 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 60px;
-    border-radius: 5px;
-    border: 1px solid color(a98-rgb 1 1 1 / 0.2);
+    filter: drop-shadow(0 3px 5px color(a98-rgb 0 0 0 / 0.7));
 }
 
 .game-card .btn-google-play:hover {

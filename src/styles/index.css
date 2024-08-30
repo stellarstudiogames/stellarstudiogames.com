@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Acme";
+    src: url("/public/fonts/Acme.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bow";
+    src: url("/public/fonts/BowlbyOne.ttf") format("truetype");
+    font-display: swap;
+}
+
 body {
     margin: 0;
     position: relative;
