@@ -9,28 +9,29 @@
       <link rel="stylesheet" href="src/styles/footer.css" />
       <link rel="stylesheet" href="src/styles/games-container.css" />
       <link rel="icon" href="public/favicon.png" type="image/x-icon" />
+      <script src="/src/scripts/loadComponent.js"></script>
    </head>
    <!-- <canvas id="cloud-canvas"></canvas> -->
    <!-- <script src="src/scripts/clouds.js"></script> -->
-   <body>
-      <header class="header">
-         <div class="logo">
-            <a href="/">
-               <img src="/public/img/logo-header.png" />
-            </a>
-         </div>
-      </header>
-      <div class="games-container" id="games-container">
+   <body class="body-main">
+      <script>
+         loadComponent("src/components/header.html", ".body-main");
+      </script>
+      <div id="games-container">
          <script src="src/scripts/gameContainer.js"></script>
       </div>
-      <footer>
+      <footer class="main-footer">
          <div class="row">
-            <div class="row1">
+            <div class="footer-copyright">
                <h1>Copyright © Stellar Studio Games. All rights reserved.</h1>
             </div>
-            <div class="row2">
-               <a href="http://google.com">Privacy Policy</a>
-               <a href="http://google.com">Terms Of Service</a>
+            <div class="footer-links">
+               <a href="/src/pages/Policy/privacy-policy.html"
+                  >Privacy Policy</a
+               >
+               <a href="/src/pages/Policy/terms-of-service.html"
+                  >Terms Of Service</a
+               >
             </div>
          </div>
       </footer>

@@ -1,4 +1,4 @@
-.games-container {
+#games-container {
     display: flex;
     flex: 1;
     flex-wrap: wrap;

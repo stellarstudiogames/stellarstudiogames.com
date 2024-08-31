@@ -10,7 +10,7 @@
     font-display: swap;
 }
 
-body {
+.body-main {
     margin: 0;
     position: relative;
     display: flex;

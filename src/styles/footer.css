@@ -1,4 +1,4 @@
-footer {
+.main-footer {
     /* background: color(a98-rgb 0.08 0.08 0.1) 0%; */
     background: linear-gradient(
         to right,
@@ -11,7 +11,7 @@ footer {
     border-top: 1px solid color(a98-rgb 1 1 1 / 0.05);
 }
 
-footer .row {
+.main-footer .row {
     display: flex;
     flex-wrap: wrap-reverse;
     height: 100%;
@@ -27,7 +27,7 @@ footer .row {
     }
 } */
 
-footer .row1 {
+.main-footer .footer-copyright {
     font-size: 5px;
     font-family: "Arial";
     text-decoration: solid;
@@ -35,7 +35,7 @@ footer .row1 {
     color: color(a98-rgb 1 1 1 / 0.5);
 }
 
-footer .row2 {
+.main-footer .footer-links {
     margin: 0px 15px;
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@ footer .row2 {
     justify-content: center;
 }
 
-footer .row2 > a {
+.main-footer .footer-links > a {
     margin: 5px;
     font-family: "Bow";
     font-size: 15px;
@@ -55,14 +55,14 @@ footer .row2 > a {
     color: color(a98-rgb 1 1 1 / 0.4);
 }
 
-footer .row2 > a:hover {
+.main-footer .footer-links > a:hover {
     color: color(a98-rgb 1 1 1 / 0.8);
     transform: scale(1.04);
     transition: transform 0.1s ease;
     transform-origin: 50% 50%;
 }
 
-/* footer .row3 {
+/* .main-footer .row3 {
     font-size: 7px;
     color: color(a98-rgb 1 1 1 / 0.8);
 } */
