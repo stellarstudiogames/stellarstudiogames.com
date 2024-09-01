@@ -10,25 +10,26 @@
     font-display: swap;
 }
 
+html,
 body {
+    height: 100%;
     margin: 0;
-    position: relative;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background: linear-gradient(
-        color(a98-rgb 0.43 0.76 1) 0%,
-        color(a98-rgb 1 1 1) 50%,
-        color(a98-rgb 1 1 1) 87%
-    );
 }
 
-.body-main {
-    margin: inherit;
-    position: inherit;
-    display: inherit;
-    min-height: inherit;
-    flex-direction: inherit;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding-top: 70px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     /* animation: pointer 2s; */
 }
 
