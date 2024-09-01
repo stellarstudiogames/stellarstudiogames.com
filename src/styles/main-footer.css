@@ -9,6 +9,16 @@
     padding-top: 25px;
     padding-bottom: 25px;
     border-top: 1px solid color(a98-rgb 1 1 1 / 0.05);
+    animation: fadeInOut 0.5s ease;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .main-footer .row {

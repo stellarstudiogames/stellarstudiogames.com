@@ -17,26 +17,26 @@
     box-shadow: 0 1px 2px color(a98-rgb 1 1 1 / 0.1);
 }
 
-.logo {
+.main-header .header-logo {
     height: 100%;
     width: 150px;
     display: flex;
     align-items: center;
 }
 
-.logo a {
+.main-header .header-logo a {
     height: 100%;
     margin-left: 10px;
     display: flex;
     align-items: center;
 }
 
-.logo a img {
+.main-header .header-logo a img {
     height: 150px;
     padding-bottom: 3px;
 }
 
-.logo a img:hover {
+.main-header .header-logo a img:hover {
     transform: scale(1.03);
     transition: transform 0.2s ease;
 }

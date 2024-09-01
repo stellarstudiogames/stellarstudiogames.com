@@ -10,7 +10,7 @@
     font-display: swap;
 }
 
-.body-main {
+body {
     margin: 0;
     position: relative;
     display: flex;
@@ -22,3 +22,21 @@
         color(a98-rgb 1 1 1) 87%
     );
 }
+
+.body-main {
+    margin: inherit;
+    position: inherit;
+    display: inherit;
+    min-height: inherit;
+    flex-direction: inherit;
+    /* animation: pointer 2s; */
+}
+
+/* @keyframes pointer {
+    from {
+        pointer-events: none;
+    }
+    to {
+        pointer-events: auto;
+    }
+} */

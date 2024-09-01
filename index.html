@@ -5,35 +5,29 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Stellar Studio Games</title>
       <link rel="stylesheet" href="src/styles/index.css" />
-      <link rel="stylesheet" href="src/styles/header.css" />
-      <link rel="stylesheet" href="src/styles/footer.css" />
+      <link rel="stylesheet" href="src/styles/main-header.css" />
+      <link rel="stylesheet" href="src/styles/main-footer.css" />
       <link rel="stylesheet" href="src/styles/games-container.css" />
       <link rel="icon" href="public/favicon.png" type="image/x-icon" />
       <script src="/src/scripts/loadComponent.js"></script>
    </head>
    <!-- <canvas id="cloud-canvas"></canvas> -->
    <!-- <script src="src/scripts/clouds.js"></script> -->
-   <body class="body-main">
-      <script>
-         loadComponent("src/components/header.html", ".body-main");
-      </script>
-      <div id="games-container">
-         <script src="src/scripts/gameContainer.js"></script>
-      </div>
-      <footer class="main-footer">
-         <div class="row">
-            <div class="footer-copyright">
-               <h1>Copyright © Stellar Studio Games. All rights reserved.</h1>
-            </div>
-            <div class="footer-links">
-               <a href="/src/pages/Policy/privacy-policy.html"
-                  >Privacy Policy</a
-               >
-               <a href="/src/pages/Policy/terms-of-service.html"
-                  >Terms Of Service</a
-               >
-            </div>
+   <body>
+      <div class="body-main">
+         <header class="main-header">
+            <script>
+               loadComponent("src/components/main-header.html", ".main-header");
+            </script>
+         </header>
+         <div id="games-container">
+            <script src="src/scripts/gameContainer.js"></script>
          </div>
-      </footer>
+         <footer class="main-footer">
+            <script>
+               loadComponent("src/components/main-footer.html", ".main-footer");
+            </script>
+         </footer>
+      </div>
    </body>
 </html>
