@@ -8,8 +8,11 @@
 }
 
 @font-face {
-    font-family: "Bow";
-    src: url("/public/fonts/BowlbyOne.ttf") format("truetype");
+    font-family: "BowlbyOne";
+    src: url("/public/fonts/BowlbyOne.woff2") format("woff2"),
+        url("/public/fonts/BowlbyOne.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
