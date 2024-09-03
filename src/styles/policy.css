@@ -1,3 +1,7 @@
+:root {
+    --main-text-color: #212121;
+}
+
 .main-policy {
     display: flex;
     justify-content: center;
@@ -10,32 +14,35 @@
     font-family: helvetica, "open sans", Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 65%;
 }
 
 .content-policy h1 {
-    font-size: 20px;
-    font-family: inherit;
-    color: var(--color-text-policy);
+    font-size: 50px;
+    font-family: acme, helvetica;
+    letter-spacing: 1px;
+    color: var(--main-text-color);
     margin: 0 0 15px 0;
 }
 
 .content-policy h2 {
     font-size: 18px;
     font-family: inherit;
-    color: var(--color-text-policy);
+    color: var(--main-text-color);
     margin: 15px 0;
 }
 
 .content-policy p {
     font-size: 16px;
     font-family: inherit;
-    color: var(--color-text-policy);
-    margin: 5px 20px;
+    color: var(--main-text-color);
+    margin: 10px 20px;
 }
 
 .content-policy .h3-text {
     font-size: 15px;
+    font-family: inherit;
     font-weight: bold;
+    color: var(--main-text-color);
     margin: 5px 0;
 }
