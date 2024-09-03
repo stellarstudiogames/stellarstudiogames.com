@@ -1,0 +1,41 @@
+Privacy Policy
+
+Last updated: [2/9/2024]
+
+Stellar Studio Games (hereinafter referred to as "we," "our," or "Stellar Studio Games") is committed to protecting the privacy of users of our mobile applications. This Privacy Policy explains how we collect, use, and protect information related to the use of our applications.
+
+1. Information Collected
+
+Stellar Studio Games does not collect personal information that can directly identify a user, such as names, email addresses, phone numbers, or physical addresses.
+
+We do not collect non-personal information directly. We do not log IP addresses, geographic locations, or any other data that could indirectly identify our users.
+
+2. Use of Advertising Networks
+
+Our applications use AdMob and Meta Audience Network to display ads. These advertising networks may collect and use non-personal data to display personalized ads within our applications. This information is collected and managed directly by these third parties in accordance with their respective privacy policies.
+
+Stellar Studio Games does not use cookies directly in our applications. However, third parties like AdMob and Meta Audience Network may use cookies to personalize the ads shown to users. We do not have control over the cookies used by these third-party services.
+
+3. In-App Purchases (IAP)
+
+Our applications may offer in-app purchases (IAP). All IAP transactions are handled through app distribution platforms (Google Play Store, Apple App Store), and we do not collect or store any payment information. Any information provided to complete a transaction is managed by the respective platform in accordance with its privacy policies.
+
+4. Data We Do Not Collect
+
+Stellar Studio Games does not access or collect information related to contacts, calendar, text messages, photos, or any other data stored on the user's device.
+
+5. Security
+
+We take reasonable measures to protect the information provided by our users through our applications. However, by using our applications, you acknowledge and accept that the security of information on the internet can never be fully guaranteed.
+
+6. Changes to the Privacy Policy
+
+We may update our Privacy Policy from time to time. We recommend reviewing this policy periodically to stay informed about how we protect your information.
+
+7. Contact
+
+If you have any questions or concerns about this Privacy Policy, please contact us via the following email address:
+
+Email: ignaciomerendez@gmail.com
+
+This Privacy Policy has been drafted to comply with applicable data protection regulations. By using our applications, you agree to the terms of this policy.
