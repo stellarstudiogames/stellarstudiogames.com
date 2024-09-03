@@ -19,7 +19,7 @@
 
 .content-policy h1 {
     font-size: 50px;
-    font-family: acme, helvetica;
+    font-family: "Acme", helvetica;
     letter-spacing: 1px;
     color: var(--main-text-color);
     margin: 0 0 15px 0;
