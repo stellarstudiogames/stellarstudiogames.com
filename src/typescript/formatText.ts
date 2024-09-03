@@ -64,20 +64,21 @@ function convertFiles(inputDir: string, outputDir: string) {
       });
    });
 }
+
 const pathRoot = process.cwd();
 
 const privacyPolicyInputDir = path.join(
    pathRoot,
-   "/private/policy/privacyPolicy/"
+   "/private/policy/privacy-policy/"
 );
 const termsOfServicesInputDir = path.join(
    pathRoot,
-   "/private/policy/termsOfServices/"
+   "/private/policy/terms-of-services/"
 );
-const privacyPolicyOutputDir = path.join(pathRoot, "/policy/privacyPolicy/");
+const privacyPolicyOutputDir = path.join(pathRoot, "/policy/privacy-policy/");
 const termsOfServicesOutputDir = path.join(
    pathRoot,
-   "/policy/termsOfServices/"
+   "/policy/terms-of-services/"
 );
 
 fs.mkdirSync(privacyPolicyOutputDir, { recursive: true });

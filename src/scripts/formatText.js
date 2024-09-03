@@ -66,10 +66,10 @@ function convertFiles(inputDir, outputDir) {
     });
 }
 const pathRoot = process.cwd();
-const privacyPolicyInputDir = path_1.default.join(pathRoot, "/private/policy/privacyPolicy/");
-const termsOfServicesInputDir = path_1.default.join(pathRoot, "/private/policy/termsOfServices/");
-const privacyPolicyOutputDir = path_1.default.join(pathRoot, "/policy/privacyPolicy/");
-const termsOfServicesOutputDir = path_1.default.join(pathRoot, "/policy/termsOfServices/");
+const privacyPolicyInputDir = path_1.default.join(pathRoot, "/private/policy/privacy-policy/");
+const termsOfServicesInputDir = path_1.default.join(pathRoot, "/private/policy/terms-of-services/");
+const privacyPolicyOutputDir = path_1.default.join(pathRoot, "/policy/privacy-policy/");
+const termsOfServicesOutputDir = path_1.default.join(pathRoot, "/policy/terms-of-services/");
 fs_1.default.mkdirSync(privacyPolicyOutputDir, { recursive: true });
 fs_1.default.mkdirSync(termsOfServicesOutputDir, { recursive: true });
 convertFiles(privacyPolicyInputDir, privacyPolicyOutputDir);
