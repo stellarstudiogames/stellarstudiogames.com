@@ -1,0 +1,57 @@
+.main-terms-of-service {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-terms-of-service {
+    font-size: 16px;
+    font-family: "open sans", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.content-terms-of-service h1 {
+    font-size: 20px;
+    font-family: inherit;
+    color: var(--color-text-policy);
+    margin: 0 0 15px 0;
+}
+
+.content-terms-of-service h2 {
+    font-size: 18px;
+    font-family: inherit;
+    color: var(--color-text-policy);
+    margin: 15px 0;
+}
+
+.content-terms-of-service h3 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--color-text-policy);
+    margin: 5px 0;
+}
+
+.content-terms-of-service p {
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--color-text-policy);
+    margin: 5px 0;
+}
+
+.content-terms-of-service .h3-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.content-terms-of-service p:last-child span.h3-text {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: normal;
+    color: var(--color-text-policy);
+    margin: 5px 0;
+}
