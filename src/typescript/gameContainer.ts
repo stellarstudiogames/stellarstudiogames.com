@@ -55,7 +55,7 @@ const cardsArray: Cards[] = [
    ),
    new Cards(
       "https://play-lh.googleusercontent.com/OUm30juvg7zKH12rlstc3vNXlgu1vWCEGYHglJ0RqmDXUvct8inobT78cptZIES_e7M=w240-h480-rw",
-      "Angry Monsters Catapult",
+      "Angry Monsters",
       "https://play.google.com/store/apps/details?id=com.StellarStudioGames.AngryCrusherMonsters"
    ),
    new Cards(
